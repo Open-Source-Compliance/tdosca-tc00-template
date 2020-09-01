@@ -1,4 +1,4 @@
-# Test-Driven Open Source Compliance Automation Test Case No. X: 
+# Test-Driven Open Source Compliance Automation Test Case No. X:
 
 ## General Context
 The "Test-Driven Open Source Compliance Automation" is an initiative initiated by Deutsche Telekom AG and hosted and driven by the [Open Chain Reference Tooling Work Group](http://oss-compliance-tooling.org/).
@@ -22,6 +22,7 @@ This test case follows the general pattern of a TDOSCA test case:
   - **does.yaml**: *a list of open / closed tasks to establish the open source compliance*
   - **donts.yaml**: *a list prohibited actions to use the package compliantly*
   - **oscf.md**: *the open source compliance file* [fulfills the compliance requirements if combined with the distributed source- or binary package]
+  * **prerequisites.csv**: *a list of preinstalled tools and libs, required by the software but not delivered as part of the software package*
 
 ### Intention
 
@@ -29,7 +30,7 @@ TBD
 
 ## Licensing Statement
 
-(c) 2020, TBD 
+(c) 2020, TBD
 
 * The software delivered as content of the test case directory ``input-sources`` is licensed under the licenses the test case uses to challenge the compliance tools. Contributions take place under the same licenses.
 
